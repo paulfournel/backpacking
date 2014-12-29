@@ -1,5 +1,5 @@
 {
-  "name": "backPack",
+  "name": "backpack",
   "version": "1.0.0",
   "description": "A module to pack boxes into a 2D space",
   "main": "index.js",
