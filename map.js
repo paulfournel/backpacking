@@ -26,9 +26,12 @@ Map.prototype.add = function(box) {
             this.freeSpaces.push(subMaps[0]);
             this.freeSpaces.push(subMaps[1]);
 
-            break;
+            
+            return true;
+            
         }
     }
+    throw "No free space for box " + box.id;
 };
 
 module.exports = Map;

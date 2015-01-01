@@ -1,11 +1,15 @@
 {
-  "name": "backpack",
+  "name": "sacados",
   "version": "1.0.0",
   "description": "A module to pack boxes into a 2D space",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Paul Fournel",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
 }
