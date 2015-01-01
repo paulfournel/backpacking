@@ -1,6 +1,6 @@
 {
   "name": "backpacking",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A module to pack boxes into a 2D space",
   "main": "index.js",
   "scripts": {
