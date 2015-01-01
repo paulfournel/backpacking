@@ -1,3 +1,11 @@
+/**
+ * BackPacking
+ * https://github.com/paulfournel/backpacking/
+ *
+ * Copyright (c) 2015 Paul Fournel
+ * Licensed under the MIT license.
+ */
+
 function SubMap(x, y, width, height) {
     this.x  = x;
     this.y = y;

@@ -1,19 +1,31 @@
 backpack
 ========
 
-A node module to pack boxes into a 2D space
+A node module to pack boxes into a 2D space.
 
-Example:
+## Installation
 
+```shell
+  npm install backpacking --save
 ```
-var BackPack = require("sacados");
 
-var boxes = [];
-for(var i = 0; i<20; i++){
-    var width = Math.floor(Math.random() * (20 - 5 + 1)) + 5;
-    var height = Math.floor(Math.random() * (20 - 5 + 1)) + 5;
-    boxes.push({'id': i, 'width': width, 'height': height});
-}
+## Usage
 
-backPack = new BackPack(40, 10000);
+```js
+  var BackPack = require("backpacking");
+  
+  var boxes = [];
+  for(var i = 0; i<20; i++){
+      var width = Math.floor(Math.random() * (20 - 5 + 1)) + 5;
+      var height = Math.floor(Math.random() * (20 - 5 + 1)) + 5;
+      boxes.push({'id': i, 'width': width, 'height': height});
+  }
+  
+  backPack = new BackPack(40, 10000);
+```
+
+## Tests
+
+```shell
+   npm test
 ```

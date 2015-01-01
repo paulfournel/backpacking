@@ -1,6 +1,6 @@
 {
-  "name": "sacados",
-  "version": "1.0.0",
+  "name": "backpacking",
+  "version": "1.0.1",
   "description": "A module to pack boxes into a 2D space",
   "main": "index.js",
   "scripts": {
