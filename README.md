@@ -3,6 +3,9 @@ Backpacking
 
 A node module to pack boxes into a 2D space.
 
+Here is the [live demo](http://htmlpreview.github.io/?https://github.com/paulfournel/backpacking/blob/master/examples/visualisation/index.html)
+
+
 ## Installation
 
 ```shell
